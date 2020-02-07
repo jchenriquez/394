@@ -1,0 +1,26 @@
+{
+    "test1": {
+        "input": "3[a]2[bc]",
+        "output": "aaabcbc"
+    },
+    "test2": {
+        "input": "3[a2[c]]",
+        "output": "accaccacc"
+    },
+    "test3": {
+        "input": "2[abc]3[cd]ef",
+        "output": "abcabccdcdcdef"
+    },
+    "test4": {
+        "input": "10[a]2[bc]",
+        "output": "aaaaaaaaaabcbc"
+    },
+    "test5": {
+        "input": "",
+        "output": ""
+    },
+    "test6": {
+        "input": "aabb",
+        "output": "aabb"
+    }
+}
